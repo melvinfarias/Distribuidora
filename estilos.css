@@ -31,8 +31,7 @@
     width: 100%;
     background-color: red;
     display: flex;
-    margin: auto;
-    margin-top: 1vh;
+    margin: 1%auto;
   }
 
   /*Sobre nosotros*/
@@ -43,9 +42,6 @@
   .card h4{
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
-  }
-  .img {
-    border-radius: 20%; 
   }
 
   /*Clientes*/
@@ -87,19 +83,32 @@
 }*/
 /*alidos img*/
 .container-aliados{
-    margin: auto;
-    margin-top: 5vh;
-    display: flex;
-    padding-left: 2%;
-    padding-right: 2%;
+  display: flex;
+  padding: 2% 2% 2% 2%;
 }
 .title-aliados{
-    margin-right: 5vh;
-    margin-left: 8vh;
-    margin: auto;
+  margin-top: 2%;
 }
 .container-aliados h4{
     font-family: 'Roboto', sans-serif;
+}
+/*prueba con mediaqueries*/
+@media (max-width: 990px){
+
+.img-aliados{
+    flex-wrap: wrap;
+  }
+
+.img-aliados{
+    display: flex;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+
+.img-aliados{
+    width: 200px;
+  }
+
 }
 
 .aliados-box1{
@@ -109,7 +118,7 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 15vh;
     justify-content: center;
     transition: 0.3s;
     border-radius: 5px;
@@ -117,11 +126,11 @@
   .aliados-box2{
     background-image:url("./assets/aliados/bd.png");
     background-position: center;
-    background-size: 70%;
+    background-size: 60%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 15vh;
     justify-content: center;
     transition: 0.3s;
     border-radius: 5px;
@@ -141,7 +150,7 @@
   .aliados-box4{
     background-image:url("./assets/aliados/hitachi.png");
     background-position: center;
-    background-size: 70%;
+    background-size: 60%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -211,9 +220,33 @@
     border-radius: 5px;
   }
   .aliados-box10{
-    background-image:url("./assets/aliados/10.png");
+    background-image:url("./assets/aliados/skf.png");
+    background-position: center;
+    background-size: 50%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .aliados-box11{
+    background-image:url("./assets/aliados/dw.png");
     background-position: center;
     background-size: 70%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .aliados-box12{
+    background-image:url("./assets/aliados/sika.png");
+    background-position: center;
+    background-size: 60%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
