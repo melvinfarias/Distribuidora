@@ -264,23 +264,25 @@
     background-position:center;
     background-size: 40%;
   }
-  /*Accordeon-Productos*/
+  /*Accordion-Productos*/
   .accordion{
     font-family: 'Roboto', sans-serif;
-    padding: 0% 10% 0% 10%;
-    border:none !important;
+    padding: 0% 15% 0% 15%;
   }
+
   .accordion-button{
     color: black;
-    background-color:white ;
+    background-color: white;
+    border-color: red;
   }
-  .accordion-button:not(.collapsed) {
-      color: black; 
-      background-color: white; 
-      box-shadow:red; 
-  }
-  
-  
-
+  .accordion-button:not(.collapsed)::after {
+      color: black;
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF2424'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;     
+      border-color: red;
+    }
+/*footer*/
+    .placeholder-wave{
+    color: red;
+    }
 
 
