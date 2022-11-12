@@ -35,6 +35,9 @@
   }
 
   /*Sobre nosotros*/
+  .img-fluid{
+    border-top-left-radius: 0% !important;
+  }
   .card{
     margin-top: 40px;
     border:none !important;
@@ -261,5 +264,23 @@
     background-position:center;
     background-size: 40%;
   }
+  /*Accordeon-Productos*/
+  .accordion{
+    font-family: 'Roboto', sans-serif;
+    padding: 0% 10% 0% 10%;
+    border:none !important;
+  }
+  .accordion-button{
+    color: black;
+    background-color:white ;
+  }
+  .accordion-button:not(.collapsed) {
+      color: black; 
+      background-color: white; 
+      box-shadow:red; 
+  }
+  
+  
+
 
 
