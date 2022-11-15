@@ -47,56 +47,8 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  /*Clientes*/
-  /*.frame {
-    position: relative;
-    top: 20px;
-    margin: 0 auto;
-    width: 400px;
-    height: 200px;
-    border-radius: 2px;
-    color:black;
-    overflow: hidden
-}
-
-.frame img {
-    align-items: center;
-    height: 200px;
-    width: 200;
-}
-.carousel {
-    animation: carousel 10s ease-in-out infinite;
-}
-@keyframes carousel {
-    0%, 20% {
-        transform: translateY(0);
-    }
-    25%, 45% {
-        transform: translateY(-200px)
-    }
-    50%, 70% {
-        transform: translateY(-400px)
-    }
-    75%, 95% {
-        transform: translateY(-600px)
-    }
-    100% {
-        transform: translateY(-800px)
-    }
-}*/
-/*alidos img*/
-.container-aliados{
-  display: flex;
-  padding: 2% 2% 2% 2%;
-}
-.title-aliados{
-  margin-top: 2%;
-}
-.container-aliados h4{
-    font-family: 'Roboto', sans-serif;
-}
 /*prueba con mediaqueries*/
-@media (max-width: 990px){
+/*@media (max-width: 990px){
 
 .img-aliados{
     flex-wrap: wrap;
@@ -112,8 +64,18 @@
     width: 200px;
   }
 
+}*/
+/*alidos img*/
+.container-aliados{
+  display: flex;
+  padding: 2% 2% 2% 2%;
 }
-
+.title-aliados{
+  margin-top: 2%;
+}
+.container-aliados h4{
+    font-family: 'Roboto', sans-serif;
+}
 .aliados-box1{
     background-image:url("./assets/aliados/3m.png");
     background-position: center;
@@ -268,21 +230,58 @@
   .accordion{
     font-family: 'Roboto', sans-serif;
     padding: 0% 15% 0% 15%;
+    border:none !important;
   }
 
   .accordion-button{
     color: black;
     background-color: white;
-    border-color: red;
   }
   .accordion-button:not(.collapsed)::after {
-      color: black;
-      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF2424'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;     
-      border-color: red;
+      color: grey;
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%9E9E9E'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
     }
-/*footer*/
-    .placeholder-wave{
-    color: red;
+  #heading{
+    border: double grey;
+    background-color: rgb(188, 188, 188);
+  }
+/*Clientes*/
+.frame-title-clientes{
+  margin-top: 2%;
+  font-family: 'Roboto', sans-serif;
+}
+.clientes{
+  padding: 2% 2% 2% 2%;
+}
+.frame {
+  margin: 0% 10% 0% 2%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden
+}
+.frame img {
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+.carousel {
+    animation: carousel 10s ease-in-out infinite;
+}
+@keyframes carousel {
+    0%, 20% {
+        transform: translateY(0);
     }
-
-
+    25%, 45% {
+        transform: translateY(-200px)
+    }
+    50%, 70% {
+        transform: translateY(-400px)
+    }
+    75%, 95% {
+        transform: translateY(-600px)
+    }
+    100% {
+        transform: translateY(-800px)
+    }
+}
