@@ -227,25 +227,7 @@
     background-position:center;
     background-size: 40%;
   }
-  /*Accordion-Productos*/
-  .accordion{
-    font-family: 'Roboto', sans-serif;
-    padding: 0% 15% 0% 15%;
-    border:none !important;
-  }
 
-  .accordion-button{
-    color: black;
-    background-color: white;
-  }
-  .accordion-button:not(.collapsed)::after {
-      color: grey;
-      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%9E9E9E'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-    }
-  #heading{
-    border: double grey;
-    background-color: rgb(188, 188, 188);
-  }
 /*Clientes*/
 .frame-title-clientes{
   margin-top: 2%;
@@ -289,7 +271,6 @@
 /*Formulario-Contacto*/
 .container-main-form{
   display: flex;
-  font-family: 'Roboto', sans-serif;
 }
 .container-contact h3{
   text-align: center;
@@ -315,14 +296,12 @@
 }
 .info-container p{
   margin-left: 2vh;
-}
 .container-social-icon{
   display: flex;
   justify-content: space-between;
 }
 .container-main-form{
  justify-content: center; 
- padding: 0% 15% 0% 15%;
 }
 .container-form input,textarea{
   padding: 1vh;
