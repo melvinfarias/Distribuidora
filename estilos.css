@@ -47,26 +47,6 @@
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
   }
-
-/*prueba con mediaqueries*/
-/*@media (max-width: 990px){
-
-.img-aliados{
-    flex-wrap: wrap;
-  }
-
-.img-aliados{
-    display: flex;
-    margin: auto;
-    margin-bottom: 5vh;
-  }
-
-.img-aliados{
-    width: 200px;
-  }
-
-}*/
-/*alidos img*/
 .container-aliados{
   display: flex;
   padding: 2% 2% 2% 2%;
@@ -343,15 +323,14 @@ a{
 /*Contacto*/
 .container-main-form{
   display: flex;
-  margin: 0% 15% 0% 15%;
+  padding: 0% 0% 0% 0%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-contact h2{
   text-align: center;
-  font-size: 3rem;
-  font-weight: 900;
-  margin-bottom: 2vh;
-  margin-top: 10vh;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .form1{
@@ -448,3 +427,23 @@ input::placeholder {
 .container-contact{
   margin-bottom: 5vh;
 }
+/*Footer*/
+.text-footer{
+  background-color: #252628;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: small;
+  margin-top: 7%;
+}
+.img-footer{
+  background-color: #252628;
+  align-items: flex-end;
+  padding-left: 20%;
+  margin-top: 2%;
+}
+.footer-box{
+  background-color: #252628;
+}
+  
+
