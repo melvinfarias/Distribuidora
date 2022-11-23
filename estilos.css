@@ -20,20 +20,29 @@
     margin-top: 85px;
  }
  .hero h5{
-    margin-top: 5px;
+    margin-top: 25px;
+    color: white;
  }
+ /*Linea banner
+ .linea-banner{
+  height: 5px;
+  width: 90%;
+  background-color: red;
+  display: flex;
+  margin: auto;
+ }*/
  .hero h1{
-    margin-top: 40px;
+    margin-top: 50px;
  }
 
 /*linea roja*/
- .linea{
+/* .linea{
     height: 5px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(202, 202, 202);
     display: flex;
     margin: auto;
-  }
+  }*/
 
   /*Sobre nosotros*/
   .img-fluid{
@@ -438,8 +447,8 @@ input::placeholder {
 }
 .img-footer{
   background-color: #252628;
-  align-items: flex-end;
-  padding-left: 20%;
+  align-items: center;
+  padding-left: 0%;
   margin-top: 2%;
 }
 .footer-box{
