@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./contact.css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--Barra para volver-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/logoRed.png" alt="" width="60" height="60">
+            </a>
+           <a href="index.html">
+             <button type="button" class="btn btn-danger">Home</button>
+            </a>
+        </div>
+    </nav>
+
+        <!--Contacto-->
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Contacto</h3>
+                <fieldset>
+                    <input placeholder="Nombre y apellido" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Numero de contacto" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escriba su consulta aqui" tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+
+</body>
+
+</html>
