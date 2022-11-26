@@ -14,7 +14,7 @@
 .hero {
     background: url(assets/banner.png) no-repeat;
     background-size: cover;
-    height: 1.5vh;
+    height: 50%;
     min-height: 370px;   
     color: 	white;
     margin-top: 85px;
@@ -29,7 +29,7 @@
  }
 
 /*linea roja*/
- .linea{
+ .linea, .linea-banner{
     height: 3px;
     width: 100%;
     background-color: rgb(202, 202, 202);
@@ -272,7 +272,7 @@ div.c{
   list-style-type: none;
 }
 h3{
-  background:#252628;
+  background:#565759;
   color:white;
   padding:14px;
   position: relative;
@@ -310,7 +310,7 @@ input:checked ~ h3 ~ div.p{
   max-height: 170px;
 }
 a{
-  color:#252628;
+  color:#404247;
 }
 
 /*Contacto*/
