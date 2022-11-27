@@ -30,7 +30,7 @@
 
 /*linea roja*/
  .linea, .linea-banner{
-    height: 3px;
+    height: 1px;
     width: 100%;
     background-color: rgb(202, 202, 202);
     display: flex;
