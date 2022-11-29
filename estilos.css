@@ -67,34 +67,31 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box2{
     background-image:url("./assets/aliados/bd.png");
-    background-position: center;
-    background-size: 60%;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    height: 15vh;
-    justify-content: center;
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-  .aliados-box3{
-    background-image:url("./assets/aliados/copeland.png");
     background-position: center;
     background-size: 70%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
+  }
+  .aliados-box3{
+    background-image:url("./assets/aliados/copeland.png");
+    background-position: center;
+    background-size: 80%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    justify-content: center;
+    transition: 0.3s;
   }
   .aliados-box4{
     background-image:url("./assets/aliados/hitachi.png");
@@ -103,10 +100,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box5{
     background-image:url("./assets/aliados/kc.png");
@@ -115,10 +111,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box6{
     background-image:url("./assets/aliados/philips.png");
@@ -127,10 +122,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box7{
     background-image:url("./assets/aliados/siemens.png");
@@ -139,10 +133,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box8{
     background-image:url("./assets/aliados/stanley.png");
@@ -151,22 +144,20 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
 .aliados-box9{
     background-image:url("./assets/aliados/truper.png");
     background-position: center;
-    background-size: 70%;
+    background-size: 80%;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box10{
     background-image:url("./assets/aliados/skf.png");
@@ -175,10 +166,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box11{
     background-image:url("./assets/aliados/dw.png");
@@ -187,10 +177,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   .aliados-box12{
     background-image:url("./assets/aliados/sika.png");
@@ -199,10 +188,9 @@
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 20vh;
     justify-content: center;
     transition: 0.3s;
-    border-radius: 5px;
   }
   
 .img-aliados :hover{
@@ -465,5 +453,6 @@ a{
 	}
 
 }
+
   
 

@@ -9,3 +9,4 @@ $("#contact").validate({
       form.submit();
     }
    }); 
+
