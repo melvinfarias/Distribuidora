@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/stylesheets/contact.css">
+    <!--Contacto-->
+    <div class="container-contact">
+        <form id="contact" action="/contact" method="post">
+            <h3>Contacto</h3>
+            <fieldset>
+                <label for="nombre"></label>
+                <input placeholder="Nombre y apellido" name="nombre" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <label for="email"></label>
+                <input placeholder="Email" name="email" type="text" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <label for="tel"></label>
+                <input placeholder="Número de contacto" name="tel" type="text" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <label for="mensaje"></label>
+                <textarea placeholder="Escriba su consulta aquí" name="mensaje" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <p>{{messaje}}</p>
+                <button name="submit" type="submit" id="contact-submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>

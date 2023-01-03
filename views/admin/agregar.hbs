@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/stylesheets/agregar.css">
+<!--Agregar-->
+<div class="container-agregar">
+    <form id="agregar" action="/admin/productos/agregar" method="post">
+        <h3>Agregar nuevo producto</h3>
+        <fieldset>
+            <label for="nombre"></label>
+            <!--<input placeholder="Nuevo producto" name="agregar" type="text" tabindex="1" required autofocus>-->
+            <input placeholder="Nuevo producto" name="producto" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        {{#if error}}
+            <p>{{message}}</p>
+        {{/if}}
+        <button type="submit" id="contact-submit">Guardar</button>
+    </form>
+
+</div>

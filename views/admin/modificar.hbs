@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/stylesheets/modificar.css">
+<!--Modificar-->
+<div class="container-modificar">
+        
+        <form id="modificar" action="/admin/productos/modificar" method="post">
+    <input type="hidden" value="{{productos.id_productos}}" name="id_productos" >
+    <h3>Modificar producto</h3>
+        <fieldset>
+            <!--<label for="producto"></label>-->
+            <!--<input placeholder="Nuevo producto" name="agregar" type="text" tabindex="1" required autofocus>-->
+            <!--<input placeholder="Producto" name="producto" type="text" tabindex="1" required autofocus value="{{productos.producto}}">-->
+            <input placeholder="Producto" name="producto" type="text" tabindex="1" required autofocus value="{{productos.producto}}">
+        </fieldset>
+        {{#if error}}
+            <p>{{message}}</p>
+        {{/if}}
+        <button type="submit" id="contact-submit">Modificar</button>
+    </form>
+
+</div>
